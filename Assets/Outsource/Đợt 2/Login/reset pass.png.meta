@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: a3363fe1586c4fd47a84a4e4f03e830e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2357466650410786664
+    second: reset pass_0
+  - first:
+      213: 7094213946810399503
+    second: reset pass_1
+  - first:
+      213: -2984500775221815302
+    second: reset pass_2
+  - first:
+      213: 3665014184480340186
+    second: reset pass_3
+  - first:
+      213: -6196807181670023966
+    second: reset pass_4
+  - first:
+      213: 3992494047379000823
+    second: reset pass_5
+  - first:
+      213: -6307853298177233896
+    second: reset pass_6
+  - first:
+      213: -6879923249357867647
+    second: reset pass_7
+  - first:
+      213: 373290470596547663
+    second: reset pass_8
+  - first:
+      213: -7279684028876712212
+    second: reset pass_9
+  - first:
+      213: -5629536557715820433
+    second: reset pass_10
+  - first:
+      213: 2041627839084166044
+    second: reset pass_11
+  - first:
+      213: 6375519414262188602
+    second: reset pass_12
+  - first:
+      213: -5177550905329898488
+    second: reset pass_13
+  - first:
+      213: -7146609779857422007
+    second: reset pass_14
+  - first:
+      213: 6174403896228195909
+    second: reset pass_15
+  - first:
+      213: -6081305779445267611
+    second: reset pass_16
+  - first:
+      213: 1892114435742702243
+    second: reset pass_17
+  - first:
+      213: -4847462812046251629
+    second: reset pass_18
+  - first:
+      213: -5065674998684990133
+    second: reset pass_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reset pass_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 400
+        width: 126
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f909b9d6767b020800000000000000
+      internalID: 2357466650410786664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 398
+        width: 41
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b71447ff5b37260800000000000000
+      internalID: 7094213946810399503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_2
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 552
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af796058b5ce496d0800000000000000
+      internalID: -2984500775221815302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_3
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 543
+        width: 96
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8f7b29bfebcd230800000000000000
+      internalID: 3665014184480340186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_4
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 398
+        width: 71
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecf7fa43b4800aa0800000000000000
+      internalID: -6196807181670023966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 400
+        width: 104
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd03e5de20386730800000000000000
+      internalID: 3992494047379000823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_6
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 400
+        width: 101
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81caed288d00678a0800000000000000
+      internalID: -6307853298177233896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_7
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 543
+        width: 105
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185b210914a9580a0800000000000000
+      internalID: -6879923249357867647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_8
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 555
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4412f984b13e2500800000000000000
+      internalID: 373290470596547663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce618b5f1fd59fa90800000000000000
+      internalID: -7279684028876712212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_10
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60f54bc35edfd1b0800000000000000
+      internalID: -5629536557715820433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_11
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bf820e3b1555c10800000000000000
+      internalID: 2041627839084166044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_12
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 400
+        width: 23
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a44b9d0256a7850800000000000000
+      internalID: 6375519414262188602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_13
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 400
+        width: 179
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c2f4922e4a528b0800000000000000
+      internalID: -5177550905329898488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_14
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9490443054422dc90800000000000000
+      internalID: -7146609779857422007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_15
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e287651a3efa550800000000000000
+      internalID: 6174403896228195909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_16
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 398
+        width: 101
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56382ad1d9cda9ba0800000000000000
+      internalID: -6081305779445267611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa15d0fd04224a10800000000000000
+      internalID: 1892114435742702243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_18
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3992112614a5abcb0800000000000000
+      internalID: -4847462812046251629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset pass_19
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45cdc38d6b13b9b0800000000000000
+      internalID: -5065674998684990133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      reset pass_0: 2357466650410786664
+      reset pass_1: 7094213946810399503
+      reset pass_10: -5629536557715820433
+      reset pass_11: 2041627839084166044
+      reset pass_12: 6375519414262188602
+      reset pass_13: -5177550905329898488
+      reset pass_14: -7146609779857422007
+      reset pass_15: 6174403896228195909
+      reset pass_16: -6081305779445267611
+      reset pass_17: 1892114435742702243
+      reset pass_18: -4847462812046251629
+      reset pass_19: -5065674998684990133
+      reset pass_2: -2984500775221815302
+      reset pass_3: 3665014184480340186
+      reset pass_4: -6196807181670023966
+      reset pass_5: 3992494047379000823
+      reset pass_6: -6307853298177233896
+      reset pass_7: -6879923249357867647
+      reset pass_8: 373290470596547663
+      reset pass_9: -7279684028876712212
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Soil
+  - Background
+  - FR
+  - PS
+  - WT
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - BackgroundLayer
+  - Water
+  - UI
+  - Plant
+  - PlacedItem
+  - SoilLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1946924187
+    locked: 0
+  - name: Effect
+    uniqueID: 909039425
+    locked: 0
+  m_RenderingLayers:
+  - Default

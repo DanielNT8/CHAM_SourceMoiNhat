@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: e743a612c3c8cad40b01cba5b9ee0e50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8570133216943438021
+    second: "B\u1EA3n sao c\u1EE7a reset pass_0"
+  - first:
+      213: -1869027069589538235
+    second: "B\u1EA3n sao c\u1EE7a reset pass_1"
+  - first:
+      213: -6866286195050530261
+    second: "B\u1EA3n sao c\u1EE7a reset pass_2"
+  - first:
+      213: 4222692466145583881
+    second: "B\u1EA3n sao c\u1EE7a reset pass_3"
+  - first:
+      213: 2388536595935590879
+    second: "B\u1EA3n sao c\u1EE7a reset pass_4"
+  - first:
+      213: 7265716634222424195
+    second: "B\u1EA3n sao c\u1EE7a reset pass_5"
+  - first:
+      213: 5743377214600312655
+    second: "B\u1EA3n sao c\u1EE7a reset pass_6"
+  - first:
+      213: 7011413033149113670
+    second: "B\u1EA3n sao c\u1EE7a reset pass_7"
+  - first:
+      213: -5272751978877008055
+    second: "B\u1EA3n sao c\u1EE7a reset pass_8"
+  - first:
+      213: -5308760363018860295
+    second: "B\u1EA3n sao c\u1EE7a reset pass_9"
+  - first:
+      213: -8287875458264372910
+    second: "B\u1EA3n sao c\u1EE7a reset pass_10"
+  - first:
+      213: -8548213025952194127
+    second: "B\u1EA3n sao c\u1EE7a reset pass_11"
+  - first:
+      213: -3166263302904317011
+    second: "B\u1EA3n sao c\u1EE7a reset pass_12"
+  - first:
+      213: 8536968066569559155
+    second: "B\u1EA3n sao c\u1EE7a reset pass_13"
+  - first:
+      213: -5541844039664127942
+    second: "B\u1EA3n sao c\u1EE7a reset pass_14"
+  - first:
+      213: -7762558897855447844
+    second: "B\u1EA3n sao c\u1EE7a reset pass_15"
+  - first:
+      213: -1424701951090635802
+    second: "B\u1EA3n sao c\u1EE7a reset pass_16"
+  - first:
+      213: -7433267737490008623
+    second: "B\u1EA3n sao c\u1EE7a reset pass_17"
+  - first:
+      213: -4726394387483233153
+    second: "B\u1EA3n sao c\u1EE7a reset pass_18"
+  - first:
+      213: -1104411139307758828
+    second: "B\u1EA3n sao c\u1EE7a reset pass_19"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_0"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 400
+        width: 126
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c870b911ca3fe670800000000000000
+      internalID: 8570133216943438021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_1"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 398
+        width: 41
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ab68168c1ef06e0800000000000000
+      internalID: -1869027069589538235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_2"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 552
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a38d1b51d06b0a0800000000000000
+      internalID: -6866286195050530261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_3"
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 543
+        width: 96
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9036358dc640a9a30800000000000000
+      internalID: 4222692466145583881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_4"
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 398
+        width: 71
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9f2c50169c52120800000000000000
+      internalID: 2388536595935590879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_5"
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 400
+        width: 104
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380797d88c205d460800000000000000
+      internalID: 7265716634222424195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_6"
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 400
+        width: 101
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47f25f952394bf40800000000000000
+      internalID: 5743377214600312655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_7"
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 543
+        width: 105
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645a56e610b8d4160800000000000000
+      internalID: 7011413033149113670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_8"
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 555
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9474c4ee20c63d6b0800000000000000
+      internalID: -5272751978877008055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_9"
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8469ca39e7356b0800000000000000
+      internalID: -5308760363018860295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_10"
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25969778e2d8bfc80800000000000000
+      internalID: -8287875458264372910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_11"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1a0c31b85ae5980800000000000000
+      internalID: -8548213025952194127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_12"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 400
+        width: 23
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab78053d4c2f04d0800000000000000
+      internalID: -3166263302904317011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_13"
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 400
+        width: 179
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c5bbac937697670800000000000000
+      internalID: 8536968066569559155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_14"
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a303437353a6713b0800000000000000
+      internalID: -5541844039664127942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_15"
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 398
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc37496fc9d54490800000000000000
+      internalID: -7762558897855447844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_16"
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 398
+        width: 101
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebcf66bf117a3ce0800000000000000
+      internalID: -1424701951090635802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_17"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5598a306ab7d890800000000000000
+      internalID: -7433267737490008623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_18"
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7479a99859786eb0800000000000000
+      internalID: -4726394387483233153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "B\u1EA3n sao c\u1EE7a reset pass_19"
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b93939be75ca0f0800000000000000
+      internalID: -1104411139307758828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "B\u1EA3n sao c\u1EE7a reset pass_0": 8570133216943438021
+      "B\u1EA3n sao c\u1EE7a reset pass_1": -1869027069589538235
+      "B\u1EA3n sao c\u1EE7a reset pass_10": -8287875458264372910
+      "B\u1EA3n sao c\u1EE7a reset pass_11": -8548213025952194127
+      "B\u1EA3n sao c\u1EE7a reset pass_12": -3166263302904317011
+      "B\u1EA3n sao c\u1EE7a reset pass_13": 8536968066569559155
+      "B\u1EA3n sao c\u1EE7a reset pass_14": -5541844039664127942
+      "B\u1EA3n sao c\u1EE7a reset pass_15": -7762558897855447844
+      "B\u1EA3n sao c\u1EE7a reset pass_16": -1424701951090635802
+      "B\u1EA3n sao c\u1EE7a reset pass_17": -7433267737490008623
+      "B\u1EA3n sao c\u1EE7a reset pass_18": -4726394387483233153
+      "B\u1EA3n sao c\u1EE7a reset pass_19": -1104411139307758828
+      "B\u1EA3n sao c\u1EE7a reset pass_2": -6866286195050530261
+      "B\u1EA3n sao c\u1EE7a reset pass_3": 4222692466145583881
+      "B\u1EA3n sao c\u1EE7a reset pass_4": 2388536595935590879
+      "B\u1EA3n sao c\u1EE7a reset pass_5": 7265716634222424195
+      "B\u1EA3n sao c\u1EE7a reset pass_6": 5743377214600312655
+      "B\u1EA3n sao c\u1EE7a reset pass_7": 7011413033149113670
+      "B\u1EA3n sao c\u1EE7a reset pass_8": -5272751978877008055
+      "B\u1EA3n sao c\u1EE7a reset pass_9": -5308760363018860295
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

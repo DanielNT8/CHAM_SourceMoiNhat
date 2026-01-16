@@ -1,0 +1,360 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 0
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 090000000d000000
+  supportSerializedTypes:
+  - TypeName: Falcon.CozyRoom.Events.ABaseEventConfig, Falcon.CozyRoom.Events
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Profile.AvatarConfig, Falcon.CozyRoom.Profile
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Byte[], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Char[], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Events.WeeklyMission.ChestConfig, Falcon.CozyRoom.Events.WeeklyMission
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Events.WeeklyMission.ChestConfig[], Falcon.CozyRoom.Events.WeeklyMission
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[Falcon.CozyRoom.Profile.AvatarConfig,
+      Falcon.CozyRoom.Profile]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[Falcon.CozyRoom.Profile.FrameConfig,
+      Falcon.CozyRoom.Profile]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EditorElementLayer,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[EditorElementQueue,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.Transform,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EditorElementLayer, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: EditorElementQueue, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Profile.FrameConfig, Falcon.CozyRoom.Profile
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.Modules.UI.Menu.Runtime.IMenuTabAnimator, Falcon.Modules.UI.Menu.Runtime
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IReadOnlyList`1[[SnapZoneData, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Falcon.Modules.UI.Menu.Runtime.IMenuTabAnimator,
+      Falcon.Modules.UI.Menu.Runtime]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CodeStage.AntiCheat.ObscuredTypes.ObscuredInt, ACTk.Runtime
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Core.ObscuredRewardInfo, Falcon.CozyRoom.Core
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Core.ObscuredRewardInfo[], Falcon.CozyRoom.Core
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CodeStage.AntiCheat.ObscuredTypes.ObscuredString, ACTk.Runtime
+    IsCustom: 0
+    Emit: 1
+  - TypeName: SnapZoneData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Events.WeeklyMission.TaskConfig, Falcon.CozyRoom.Events.WeeklyMission
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Events.WeeklyMission.TaskConfig[], Falcon.CozyRoom.Events.WeeklyMission
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Transform, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Falcon.CozyRoom.Events.WeeklyMission.WeeklyConfig, Falcon.CozyRoom.Events.WeeklyMission
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Action, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Action`1[[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.AddressableAssets.AssetReferenceGameObject, Unity.Addressables
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.AudioClip, UnityEngine.AudioModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CommonSFX, Assembly-CSharp-firstpass
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CustomSpawnPack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[CommonSFX, Assembly-CSharp-firstpass],[UnityEngine.AudioClip,
+      UnityEngine.AudioModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[IAPCatalog+Enum, Assembly-CSharp],[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[IBubble, Assembly-CSharp],[UnityEngine.GameObject[],
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[IPackPopup, Assembly-CSharp],[GroupPackData,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[IPackSlider, Assembly-CSharp],[GroupPackData,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[RewardEnum, Assembly-CSharp],[UIReward,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.AudioClip,
+      UnityEngine.AudioModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ElementBehavior,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0,
+      Culture=neutral, PublicKeyToken=b77a5c561934e089],[ElementBehavior, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[System.String,
+      mscorlib]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.Vector3,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Type, mscorlib],[GroupPackData,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Type, mscorlib],[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DictionaryExtension.DictItemFloating, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: ElementBehavior, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[CommonSFX, Assembly-CSharp-firstpass]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[IAPCatalog+Enum,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[RewardEnum, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.GameObject, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.GameObject[], UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: GroupPackData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IAPCatalog+Enum, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IBubble, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.IEnumerator, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[CommonSFX, Assembly-CSharp-firstpass]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[IAPCatalog+Enum, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[IBubble, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.Int32, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[IPackPopup, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[IPackSlider, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[RewardEnum, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.String, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.Type, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IPack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IPackPopup, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IPackSlider, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[UnityEngine.AddressableAssets.AssetReferenceGameObject,
+      Unity.Addressables]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ElementBehavior, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[IPack, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[UnityEngine.AddressableAssets.AssetReferenceGameObject,
+      Unity.Addressables]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Object, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[IBubble, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[IPackPopup, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[IPackSlider, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[System.Type, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: RewardEnum, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Type, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Type[], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UIReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Vector3, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WrapperAdsPack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WrapperBoosterPack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WrapperCoinPack, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: WrapperDailyLogin, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
