@@ -28,7 +28,20 @@ public class DragDropItems : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         if (slotUI == null || string.IsNullOrEmpty(slotUI.itemId)) return;
 
         foreach (var canvas in allCanvasToHide)
-            if (canvas != null) canvas.enabled = false;
+            if (canvas != null)
+            {
+                // [SỬA LỖI A] - Ngoại trừ Tutorial Canvas ra, đừng tắt nó!
+                // Giả sử Canvas chứa tutorial của bạn tên là "TutorialCanvas"
+                if (canvas.gameObject.name == "TutorialCanvas") continue;
+
+                canvas.enabled = false;
+            }
+
+        // [THÊM MỚI] - Ngay khi nắm hạt giống, dời lỗ thủng ra ô đất để soi sáng chỗ trồng
+        if (FarmingTutorialController.IsTutorialMode)
+        {
+            FarmingTutorialController.Instance.FocusOnSoilDuringDrag();
+        }
 
         GameObject prefab = FindPrefabByItemId(slotUI.itemId);
         if (prefab == null)
@@ -181,6 +194,16 @@ public class DragDropItems : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 placedItem.AddComponent<DragDropPlacedDecor>();
         }
 
+        //CHẶN VIỆC TRỪ ĐỒ NẾU ĐANG LÀ TUTORIAL
+        if (FarmingTutorialController.IsTutorialMode)
+        {
+            Debug.Log("🌱 Gieo hạt trong Tutorial: Không trừ số lượng hạt giống!");
+            FarmingTutorialController.isSeedPlanted = true;
+
+            return; // Dừng hàm lại tại đây, không cho chạy xuống dòng ReduceQuantity
+        }
+
+        // Nếu không phải Tutorial thì trừ đồ bình thường
         slotUI.ReduceQuantity(1);
     }
 

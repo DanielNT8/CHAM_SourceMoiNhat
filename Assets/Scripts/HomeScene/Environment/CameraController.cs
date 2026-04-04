@@ -31,6 +31,7 @@ public class CameraController : MonoBehaviour
 
     void LateUpdate()
     {
+        if (FarmingTutorialController.IsTutorialMode || TutorialManager.isTutorialRunning) return;
         HandleZoom();
         HandleMovement();
         ClampCameraPosition();

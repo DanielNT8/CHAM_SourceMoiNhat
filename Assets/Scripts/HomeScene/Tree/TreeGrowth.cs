@@ -221,14 +221,44 @@ public class TreeGrowth : MonoBehaviour
             return false;
         }
 
+        // [THÊM MỚI] - TUTORIAL TIẾN HÓA 3 BƯỚC
+        // ==================================================
+        if (FarmingTutorialController.IsTutorialMode)
+        {
+            if (toolId == "WT")
+            {
+                level = 1; // Nước -> Lên cấp 1
+                StartCoroutine(DoLevelUpTransition());
+                return true;
+            }
+            if (toolId == "FR")
+            {
+                level = 2; // Phân bón -> Lên cấp 2
+                StartCoroutine(DoLevelUpTransition());
+                return true;
+            }
+            if (toolId == "PS")
+            {
+                level = 3; // Thuốc trừ sâu -> Lên cấp 3 Max
+                currentXP = xpToLevel;
+                StartCoroutine(DoLevelUpTransition());
+                infoUI?.Hide();
+                return true;
+            }
+        }
+
         int addXP = 0;
         bool canUse = false;
         long now = DateTimeOffset.UtcNow.Ticks;
 
+        // Bổ sung: Kiểm tra xem có đang chạy Tutorial không
+        bool isTutorial = FarmingTutorialController.IsTutorialMode;
+
         switch (toolId)
         {
             case "WT":
-                canUse = (now - lastWT) >= WT_CD.Ticks;
+                // Bổ sung isTutorial || vào trước điều kiện
+                canUse = isTutorial || ((now - lastWT) >= WT_CD.Ticks);
                 if (canUse)
                 {
                     addXP = WT_XP; lastWT = now; FindAnyObjectByType<DailyTaskManage>()?.MarkWatered(); _soilBehaviour?.WaterSoil();
@@ -239,7 +269,8 @@ public class TreeGrowth : MonoBehaviour
                 }
                 break;
             case "FR":
-                canUse = (now - lastFR) >= FR_CD.Ticks;
+                // Bổ sung isTutorial 
+                canUse = isTutorial || ((now - lastFR) >= FR_CD.Ticks);
                 if (canUse)
                 {
                     addXP = FR_XP; lastFR = now; FindAnyObjectByType<DailyTaskManage>()?.MarkFertilized();
@@ -250,7 +281,8 @@ public class TreeGrowth : MonoBehaviour
                 }
                 break;
             case "PS":
-                canUse = (now - lastPS) >= PS_CD.Ticks;
+                // Bổ sung isTutorial
+                canUse = isTutorial || ((now - lastPS) >= PS_CD.Ticks);
                 if (canUse) { addXP = PS_XP; lastPS = now; _soilBehaviour?.CurePest(); }
                 else
                 {
@@ -361,7 +393,15 @@ public class TreeGrowth : MonoBehaviour
         var targetScale = newTree.transform.localScale;
         newTree.transform.localScale = Vector3.zero;
         newTree.transform.DOScale(targetScale * 1.2f, 0.4f).SetEase(Ease.OutBack)
-            .OnComplete(() => newTree.transform.DOScale(targetScale, 0.2f));
+            .OnComplete(() => {
+                newTree.transform.DOScale(targetScale, 0.2f);
+
+                // [XỬ LÝ IN-GAME & TUTORIAL] Chờ phình to xong thì bật nút
+                if (growth.level >= 3 && growth.currentXP >= growth.xpToLevel)
+                {
+                    growth.ShowClaim(true);
+                }
+            });
     }
 
     private void UpdateVisualForLevel()
@@ -391,6 +431,11 @@ public class TreeGrowth : MonoBehaviour
             if (string.IsNullOrEmpty(item.itemId))
                 item.itemId = $"{baseId}{level}";
             item.type = (level == 0 ? "Seed" : "Tree");
+        }
+
+        if (level >= 3 && currentXP >= xpToLevel && transform.localScale.x > 0.1f)
+        {
+            ShowClaim(true);
         }
     }
 
@@ -535,6 +580,22 @@ public class TreeGrowth : MonoBehaviour
     // Hàm xử lý logic nhận thưởng và xóa cây (Tách ra để gọi trong Callback)
     private void FinishClaim(ClaimedTreeData data)
     {
+        if (FarmingTutorialController.IsTutorialMode)
+        {
+            Debug.Log("Thu hoạch Tutorial thành công! Xóa cây nháp.");
+
+            // Báo cho đạo diễn kết thúc Tutorial
+            if (FarmingTutorialController.Instance != null)
+                FarmingTutorialController.Instance.OnTutorialClaimed();
+
+            // Xóa nút Claim UI và Xóa cây
+            DOTween.KillAll(claimBtn);
+            if (claimBtn) Destroy(claimBtn.gameObject);
+            Destroy(gameObject);
+
+            return; // DỪNG HÀM TẠI ĐÂY! Cực kỳ quan trọng để không chạy code bên dưới.
+        }
+
         // Cộng EXP cho User
         if (UserSession.currentUser != null)
         {

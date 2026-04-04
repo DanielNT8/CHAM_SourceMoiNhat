@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Linq;
+using Sirenix.OdinInspector.Editor.GettingStarted;
 
 public class DragAndInteract : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -44,6 +45,12 @@ public class DragAndInteract : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         }
 
         HideAllCanvas();
+
+        // [THÊM MỚI] - Dời lỗ thủng ra ô đất để soi sáng cây
+        if (FarmingTutorialController.IsTutorialMode)
+        {
+            FarmingTutorialController.Instance.FocusOnSoilDuringDrag();
+        }
 
         var prefab = Resources.Load<GameObject>($"{toolsResourcesFolder}/{toolId}");
         if (prefab == null)
@@ -92,9 +99,18 @@ public class DragAndInteract : MonoBehaviour, IBeginDragHandler, IDragHandler, I
                     .OnComplete(() =>
                     {
                         if (growth.ApplyTool(toolId))
+                        {
                             ConsumeTool(toolId);
 
-                    
+                            // [THÊM MỚI] Bắn tín hiệu hoàn thành từng bước
+                            if (FarmingTutorialController.IsTutorialMode)
+                            {
+                                if (toolId == "WT") FarmingTutorialController.isWatered = true;
+                                if (toolId == "FR") FarmingTutorialController.isFertilized = true;
+                                if (toolId == "PS") FarmingTutorialController.isPesticided = true;
+                            }
+                        }
+
                         if (AudioManager.Instance != null && actionSound != null)
                         {
                             AudioManager.Instance.PlaySFX(actionSound);
@@ -147,6 +163,9 @@ public class DragAndInteract : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     #region --- Tool Quantity Logic ---
     private bool CanUseTool(string toolId)
     {
+        //Đang chạy Tutorial thì cho xài tool thoải mái (dù đang có 0 cái)
+        if (FarmingTutorialController.IsTutorialMode) return true;
+
         TMP_Text targetText = GetToolText(toolId);
         if (targetText == null) return true;
 
@@ -164,6 +183,9 @@ public class DragAndInteract : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
     private void ConsumeTool(string toolId)
     {
+        //Đang chạy Tutorial thì không trừ số lượng trên UI
+        if (FarmingTutorialController.IsTutorialMode) return;
+
         TMP_Text targetText = GetToolText(toolId);
         if (targetText == null) return;
 

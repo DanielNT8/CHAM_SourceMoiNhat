@@ -147,6 +147,14 @@ public class ManagerInGame_SaveLoad : MonoBehaviour
 
     private IEnumerator SaveCoroutine(Action onComplete)
     {
+        // Tutorial stage
+        if (FarmingTutorialController.IsTutorialMode)
+        {
+            Debug.LogWarning("[SaveLoad] ?ang trong ch? ?? Tutorial. H?Y l?u Scene ?? b?o v? d? li?u!");
+            onComplete?.Invoke();
+            yield break; // Thoát hàm l?u ngay l?p t?c
+        }
+
         SaveGameSceneRequest request = new SaveGameSceneRequest
         {
             UserId = _currentUserId,
