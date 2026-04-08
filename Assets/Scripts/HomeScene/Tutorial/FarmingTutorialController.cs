@@ -227,7 +227,7 @@ public class FarmingTutorialController : MonoBehaviour
         tutorialManager.firefly.DOKill();
 
         IsTutorialMode = false;
-        PlayerPrefs.SetInt("FarmingTutorialPlayed", 1);
+        PlayerPrefs.SetInt(TutorialManager.GetTutorialSaveKey(), 1);
         PlayerPrefs.Save();
     }
 

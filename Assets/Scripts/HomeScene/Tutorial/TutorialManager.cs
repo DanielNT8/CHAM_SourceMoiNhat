@@ -60,7 +60,7 @@ public class TutorialManager : MonoBehaviour
         }
     }
 
-    private string GetTutorialSaveKey()
+    public static string GetTutorialSaveKey()
     {
         var user = UserSession.currentUser;
         if (user != null && !string.IsNullOrEmpty(user.userId)) return $"TutorialPlayed_{user.userId}";
@@ -83,10 +83,6 @@ public class TutorialManager : MonoBehaviour
         holeMat.SetFloat("_Radius", 0);
 
         DisableTutorialUI();
-
-        // Lưu lại trạng thái
-        PlayerPrefs.SetInt(GetTutorialSaveKey(), 1);
-        PlayerPrefs.Save();
 
         // GỌI HÀM BẮT ĐẦU GIAI ĐOẠN 2 Ở ĐÂY
         StartFarmingPhase();
@@ -221,8 +217,6 @@ public class TutorialManager : MonoBehaviour
         yield return DOVirtual.Float(holeMat.GetFloat("_Radius"), 0, 0.8f, (v) => holeMat.SetFloat("_Radius", v)).WaitForCompletion();
 
         DisableTutorialUI();
-        PlayerPrefs.SetInt(GetTutorialSaveKey(), 1);
-        PlayerPrefs.Save();
 
         // Xong pha 1 tự động chuyển pha 2
         StartFarmingPhase();

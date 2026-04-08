@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Linq;
-using Sirenix.OdinInspector.Editor.GettingStarted;
+
 
 public class DragAndInteract : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
